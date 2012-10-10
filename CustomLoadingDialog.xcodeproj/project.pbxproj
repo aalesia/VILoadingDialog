@@ -1,0 +1,301 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA9A073D1507A06500526320 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA9A073C1507A06500526320 /* UIKit.framework */; };
+		EA9A073F1507A06500526320 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA9A073E1507A06500526320 /* Foundation.framework */; };
+		EA9A07411507A06500526320 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA9A07401507A06500526320 /* CoreGraphics.framework */; };
+		EA9A07471507A06500526320 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EA9A07451507A06500526320 /* InfoPlist.strings */; };
+		EA9A07491507A06500526320 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9A07481507A06500526320 /* main.m */; };
+		EA9A074D1507A06500526320 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9A074C1507A06500526320 /* AppDelegate.m */; };
+		EA9A07501507A06500526320 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9A074F1507A06500526320 /* ViewController.m */; };
+		EA9A07531507A06500526320 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA9A07511507A06500526320 /* ViewController.xib */; };
+		EA9A075C1507AE2B00526320 /* VILoadingDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9A075A1507AE2B00526320 /* VILoadingDialog.m */; };
+		EA9A075D1507AE2B00526320 /* VILoadingDialog.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA9A075B1507AE2B00526320 /* VILoadingDialog.xib */; };
+		EA9A075F1507B62A00526320 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA9A075E1507B62A00526320 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EA9A07381507A06500526320 /* CustomLoadingDialog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomLoadingDialog.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA9A073C1507A06500526320 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EA9A073E1507A06500526320 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EA9A07401507A06500526320 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EA9A07441507A06500526320 /* CustomLoadingDialog-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CustomLoadingDialog-Info.plist"; sourceTree = "<group>"; };
+		EA9A07461507A06500526320 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EA9A07481507A06500526320 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EA9A074A1507A06500526320 /* CustomLoadingDialog-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CustomLoadingDialog-Prefix.pch"; sourceTree = "<group>"; };
+		EA9A074B1507A06500526320 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EA9A074C1507A06500526320 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EA9A074E1507A06500526320 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = ViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		EA9A074F1507A06500526320 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = ViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		EA9A07521507A06500526320 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		EA9A07591507AE2B00526320 /* VILoadingDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = VILoadingDialog.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		EA9A075A1507AE2B00526320 /* VILoadingDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = VILoadingDialog.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		EA9A075B1507AE2B00526320 /* VILoadingDialog.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VILoadingDialog.xib; sourceTree = "<group>"; };
+		EA9A075E1507B62A00526320 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA9A07351507A06500526320 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA9A075F1507B62A00526320 /* QuartzCore.framework in Frameworks */,
+				EA9A073D1507A06500526320 /* UIKit.framework in Frameworks */,
+				EA9A073F1507A06500526320 /* Foundation.framework in Frameworks */,
+				EA9A07411507A06500526320 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA9A072D1507A06500526320 = {
+			isa = PBXGroup;
+			children = (
+				EA9A075E1507B62A00526320 /* QuartzCore.framework */,
+				EA9A07421507A06500526320 /* CustomLoadingDialog */,
+				EA9A073B1507A06500526320 /* Frameworks */,
+				EA9A07391507A06500526320 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA9A07391507A06500526320 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA9A07381507A06500526320 /* CustomLoadingDialog.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA9A073B1507A06500526320 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA9A073C1507A06500526320 /* UIKit.framework */,
+				EA9A073E1507A06500526320 /* Foundation.framework */,
+				EA9A07401507A06500526320 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA9A07421507A06500526320 /* CustomLoadingDialog */ = {
+			isa = PBXGroup;
+			children = (
+				EA9A074B1507A06500526320 /* AppDelegate.h */,
+				EA9A074C1507A06500526320 /* AppDelegate.m */,
+				EA9A074E1507A06500526320 /* ViewController.h */,
+				EA9A074F1507A06500526320 /* ViewController.m */,
+				EA9A07511507A06500526320 /* ViewController.xib */,
+				EA9A07431507A06500526320 /* Supporting Files */,
+				EA9A07591507AE2B00526320 /* VILoadingDialog.h */,
+				EA9A075A1507AE2B00526320 /* VILoadingDialog.m */,
+				EA9A075B1507AE2B00526320 /* VILoadingDialog.xib */,
+			);
+			path = CustomLoadingDialog;
+			sourceTree = "<group>";
+		};
+		EA9A07431507A06500526320 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA9A07441507A06500526320 /* CustomLoadingDialog-Info.plist */,
+				EA9A07451507A06500526320 /* InfoPlist.strings */,
+				EA9A07481507A06500526320 /* main.m */,
+				EA9A074A1507A06500526320 /* CustomLoadingDialog-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA9A07371507A06500526320 /* CustomLoadingDialog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA9A07561507A06500526320 /* Build configuration list for PBXNativeTarget "CustomLoadingDialog" */;
+			buildPhases = (
+				EA9A07341507A06500526320 /* Sources */,
+				EA9A07351507A06500526320 /* Frameworks */,
+				EA9A07361507A06500526320 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomLoadingDialog;
+			productName = CustomLoadingDialog;
+			productReference = EA9A07381507A06500526320 /* CustomLoadingDialog.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA9A072F1507A06500526320 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = VOKAL;
+			};
+			buildConfigurationList = EA9A07321507A06500526320 /* Build configuration list for PBXProject "CustomLoadingDialog" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EA9A072D1507A06500526320;
+			productRefGroup = EA9A07391507A06500526320 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA9A07371507A06500526320 /* CustomLoadingDialog */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA9A07361507A06500526320 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA9A07471507A06500526320 /* InfoPlist.strings in Resources */,
+				EA9A07531507A06500526320 /* ViewController.xib in Resources */,
+				EA9A075D1507AE2B00526320 /* VILoadingDialog.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA9A07341507A06500526320 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA9A07491507A06500526320 /* main.m in Sources */,
+				EA9A074D1507A06500526320 /* AppDelegate.m in Sources */,
+				EA9A07501507A06500526320 /* ViewController.m in Sources */,
+				EA9A075C1507AE2B00526320 /* VILoadingDialog.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EA9A07451507A06500526320 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA9A07461507A06500526320 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EA9A07511507A06500526320 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA9A07521507A06500526320 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA9A07541507A06500526320 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		EA9A07551507A06500526320 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA9A07571507A06500526320 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CustomLoadingDialog/CustomLoadingDialog-Prefix.pch";
+				INFOPLIST_FILE = "CustomLoadingDialog/CustomLoadingDialog-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EA9A07581507A06500526320 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CustomLoadingDialog/CustomLoadingDialog-Prefix.pch";
+				INFOPLIST_FILE = "CustomLoadingDialog/CustomLoadingDialog-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA9A07321507A06500526320 /* Build configuration list for PBXProject "CustomLoadingDialog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA9A07541507A06500526320 /* Debug */,
+				EA9A07551507A06500526320 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA9A07561507A06500526320 /* Build configuration list for PBXNativeTarget "CustomLoadingDialog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA9A07571507A06500526320 /* Debug */,
+				EA9A07581507A06500526320 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA9A072F1507A06500526320 /* Project object */;
+}
